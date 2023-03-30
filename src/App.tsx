@@ -1,3 +1,6 @@
+import BtnEqual from "./assets/ButtonEquals.png";
+import PlusMinus from "./assets/PlusMinus.png";
+
 import * as C from "./styles";
 
 function App() {
@@ -23,8 +26,14 @@ function App() {
           <button>2</button>
           <button>3</button>
 
+          <button>
+            <img src={PlusMinus} alt="" />
+          </button>
           <button>0</button>
           <button>.</button>
+          <button>
+            <img src={BtnEqual} alt="" />
+          </button>
         </C.Buttons>
       </C.Calculate>
     </C.Container>
