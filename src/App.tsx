@@ -36,29 +36,29 @@ function App() {
           <button>8</button>
           <button>9</button>
 
-          <button>
+          <button className="button_operations">
             <img src={X} alt="" />
           </button>
           <button>4</button>
           <button>5</button>
           <button>6</button>
 
-          <button>
+          <button className="button_operations">
             <img src={Minus} alt="" />
           </button>
           <button>1</button>
           <button>2</button>
           <button>3</button>
 
-          <button>
+          <button className="button_operations">
             <img src={Plus} alt="" />
           </button>
-          <button>
+          <button className="button_operations">
             <img src={PlusMinus} alt="" />
           </button>
           <button>0</button>
           <button>.</button>
-          <button>
+          <button className="button_equals">
             <img src={BtnEqual} alt="" />
           </button>
         </C.Buttons>
