@@ -12,11 +12,10 @@ import * as C from "./styles";
 function App() {
   return (
     <C.Container>
-      <h1>Calculadora</h1>
       <C.Calculate>
         <C.Result>
           <span></span>
-          <div>
+          <div className="calculate_result">
             <span>
               <img src={Equals} alt="" />
             </span>
@@ -26,11 +25,11 @@ function App() {
         <C.Buttons>
           <button>AC</button>
           <button>C</button>
-          <button>
+          <button className="button_operations">
             <img src={Percent} alt="" />
           </button>
 
-          <button>
+          <button className="button_operations">
             <img src={Divide} alt="" />
           </button>
           <button>7</button>
