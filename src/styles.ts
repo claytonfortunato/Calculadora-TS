@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 356px;
-  height: 510px;
+  height: 560px;
 
   padding: 54px 32px 32px 32px;
 
@@ -82,10 +82,11 @@ export const Buttons = styled.div`
     align-items: center;
 
     background: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.05) 0%,
-      rgba(255, 255, 255, 0.05) 100%
-    );
+        180deg,
+        rgba(0, 0, 0, 0.05) 0%,
+        rgba(255, 255, 255, 0.05) 100%
+      ),
+      #2d2a37;
 
     box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01),
       0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1),
@@ -93,6 +94,10 @@ export const Buttons = styled.div`
       inset 0px 2px 3px rgba(255, 255, 255, 0.06);
 
     border-radius: 999px;
+  }
+
+  .clean {
+    color: #975dfa;
   }
 
   .button_operations {
